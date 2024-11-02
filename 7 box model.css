@@ -1,0 +1,12 @@
+span>h1{
+    color: aqua;background-color: azure;
+    border: 3px solid red;
+}
+span>h2{
+    color: aliceblue; background-color: blue;
+    border: 5px dotted palevioletred;
+}
+span>h3{
+    color: blueviolet;background-color: bisque;
+    border: 8px dashed purple;
+}
