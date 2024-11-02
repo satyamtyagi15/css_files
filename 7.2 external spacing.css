@@ -1,0 +1,18 @@
+span>h1{
+    color: aqua;background-color: azure;
+    border: 3px solid red;
+    margin-top: 10px ; 
+    margin-left: 60px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+}
+span>h2{
+    color: aliceblue; background-color: blue;
+    border: 5px dotted palevioletred;
+    margin:  10px 20px 30px 40px;
+}
+span>h3{
+    color: blueviolet;background-color: bisque;
+    border: 8px dashed purple;
+    margin: 6px 15px 25px 40px;
+}
