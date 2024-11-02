@@ -1,0 +1,30 @@
+.blockscope1{
+    background-color: antiquewhite;color: blue;
+    display: block;
+    height: 40px;
+}
+.blockscope2{
+    background-color: aqua;
+    color: yellow;
+    display: block;
+}
+.blockscope3{
+    background-color: bisque;
+    color: darkmagenta;
+    display: inline;
+}
+.blockscope4{
+    background-color: aqua;
+    color: darkorchid;
+    display: inline;
+}
+.blockscope5{
+    color: yellow;background-color: black;
+    display: inline-block;
+    height: 60px;
+}
+.blockscope6{
+    color: hwb(101 0% 0%);background-color: rgb(163, 24, 24);
+    display: inline-block;
+    width: 40px;
+}
