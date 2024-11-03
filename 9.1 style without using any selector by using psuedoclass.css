@@ -1,0 +1,10 @@
+span:first-child{
+    color: red; background-color: antiquewhite;
+    }
+
+    span:last-child{
+        color: yellow; background-color: black;
+    }
+    span:nth-child(6){
+        color: darkmagenta;background-color: yellow;
+    }

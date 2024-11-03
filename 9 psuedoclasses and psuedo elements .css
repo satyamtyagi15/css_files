@@ -1,0 +1,15 @@
+button{
+    font-size: x-large;
+}
+button:hover{
+    color: darkmagenta;
+    background-color: bisque;
+    cursor: pointer;
+    /* cursor: pointer; to make it a hand sign  */
+}
+button:active{
+    border: 10px red solid;
+}
+button:focus{
+    background-color: grey;
+}
