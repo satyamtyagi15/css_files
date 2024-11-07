@@ -1,0 +1,134 @@
+h3::before{
+  content:  "hey hi there " ;
+}
+h3::after{
+    content: " everyone";
+}
+.colorshapes1{
+    height: 120px ;
+    width: 120px;
+    background-color: darkorange;
+}
+.colorshapes2{
+    height: 120px ;
+    width: 120px;
+    background-color: rgb(0, 21, 255);
+    border-radius: 30%;
+}
+.colorshapes3{
+    height: 120px ;
+    width: 120px;
+    background-color: rgb(0, 255, 229);
+    border-radius: 50%;
+    /*on 50% and more then 50% it will remain as circle only  */
+}
+.colorshapes4{
+    height: 240px ;
+    width: 120px;
+    background-color: rgb(255, 0, 81);
+    border-radius: 50%;
+    /* now if we want to change our circle to oval and spiral we can increase
+    decrease it's width accordingly  */
+}
+.colorshapes5{
+    height: 120px ;
+    width: 240px;
+    background-color: rgb(0, 255, 4);
+    border-radius: 50%;
+    /* now if we want to change our circle to oval and spiral we can increase
+    decrease it's width accordingly  */
+}
+.colorshapes6{
+    height: 120px ;
+    width: 120px;
+    background-color:black;
+    border-radius: 50%;
+    margin: 129px;
+    position: relative;
+}
+.colorshapes6::before{
+    height: 60px;
+    width: 60px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* now this circle will not be visible untill we mention the content that is the 
+    important term for psuedo elment  */
+}
+.colorshapes7{
+    height: 120px ;
+    width: 120px;
+    background-color:black;
+    border-radius: 50%;
+    margin: 129px;
+    position: relative;
+}
+.colorshapes7::before{
+    height: 60px;
+    width: 60px;
+    border-radius: 59%;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: " " ;
+    /* now this circle will not be visible untill we mention the content that is the 
+    important term for psuedo elment  */
+}
+.colorshapes8{
+    height: 120px ;
+    width: 120px;
+    background-color:black;
+    border-radius: 50%;
+    margin: 129px;
+    position: relative;
+}
+.colorshapes8::after{
+    height: 60px;
+    width: 60px;
+    border-radius: 59%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: " " ;
+}
+.colorshapes9{
+    height: 120px ;
+    width: 120px;
+    background-color:black;
+    border-radius: 50%;
+    margin: 129px;
+    position: relative;
+}
+.colorshapes9::before{
+    height: 60px;
+    width: 60px;
+    border-radius: 59%;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: " " ;
+    /* now this circle will not be visible untill we mention the content that is the 
+    important term for psuedo elment  */
+}
+.colorshapes9{
+    height: 120px ;
+    width: 120px;
+    background-color:black;
+    border-radius: 50%;
+    margin: 129px;
+    position: relative;
+}
+.colorshapes9::after{
+    height: 60px;
+    width: 60px;
+    border-radius: 59%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: " " ;
+}
