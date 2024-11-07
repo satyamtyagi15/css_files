@@ -1,0 +1,26 @@
+.lol{
+    height: 150px;
+    width: 150px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(139, 137, 0);
+    position: static;
+    display: inline-block;
+
+}
+#lol3{
+    height: 150px;
+    width: 150px;
+    color: black;
+    background-color: aqua;
+    position: relative;
+    left: 30px;
+}
+
+#lol12{
+    height: 150px;
+    width: 150px;
+    color: rgb(254, 196, 255);
+    background-color: rgb(55, 0, 255);
+    left: 30px;
+    position: absolute;
+}
