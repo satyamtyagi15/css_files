@@ -1,0 +1,10 @@
+.FIXEDPOS{
+    color: darkred;
+    background-color: lightyellow;
+    border: 10px solid blue;
+    font-size: x-large;
+    top: 90px ;
+    left: 180px ;
+    font-style: italic;
+    position: fixed;
+}

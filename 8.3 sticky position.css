@@ -1,0 +1,21 @@
+#lol3{
+    color: rgb(0, 12, 139);
+    background-color: rgb(221, 238, 175);
+    font-size: large;
+    font-style: italic;
+    border: 10px solid black;
+   height: 100px;
+   width: 100px;
+    position: sticky;
+    top: 10px;
+}
+.lol{
+    color: darkmagenta;
+    background-color: paleturquoise;
+    font-size: large;
+    font-style: italic;
+    border: solid ;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
