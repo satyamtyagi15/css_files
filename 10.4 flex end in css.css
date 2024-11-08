@@ -1,0 +1,9 @@
+.parent1{
+    color: whitesmoke;
+    background-color: darkblue;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: xx-large;
+}

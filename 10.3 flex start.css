@@ -1,0 +1,11 @@
+.parent1
+{
+    color: yellow;
+    background-color: black;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: xx-large;
+    /* flex start is used to start the content from the left as the default start  */
+}
