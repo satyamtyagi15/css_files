@@ -1,0 +1,9 @@
+.parent1
+{
+    color: black;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: xx-large;
+}
