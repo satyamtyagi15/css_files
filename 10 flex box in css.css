@@ -1,0 +1,39 @@
+.parent1{
+    color: yellow;
+    background-color: black;
+    font-size: xx-large;
+}
+.parent2{
+    color: yellow;
+    background-color: black;
+    display: flex;
+    font-size: xx-large;
+}
+.parent3{
+    color: yellow;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+}
+.parent4{
+    color: yellow;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+}
+.parent5{
+    color: yellow;
+    background-color: black;
+    display: flex;
+   flex-direction: column-reverse;
+   font-size: xx-large;
+}
+.parent6{
+    color: yellow;
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: xx-large;
+}
