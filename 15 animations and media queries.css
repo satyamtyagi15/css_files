@@ -1,0 +1,13 @@
+@media only screen and (max-width:1200px){
+    /* it's the media only which is indicating if the screen width is between 0 to 1200px
+    then i want these styles to be applied overhere */
+    h3{
+       background-color: red;
+
+    }
+    h5{
+        background-color: blue;
+    }
+}
+/* hence you can check it on your laptop by inspecting your 
+webpage or by decreasing the pixels in your webpage in the inspection section */
