@@ -1,0 +1,34 @@
+.container{
+    background-color: black;
+    width: 80vw;
+    height: 70vh;
+
+}
+.box{ background-color:aqua;
+    width: 8vw;
+    height: 7vh;
+animation-name: SATYAM_KA_ANIMATION;
+animation-duration: 4s;
+animation-timing-function: ease-in-out;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+animation-play-state: running;
+animation-fill-mode: forwards;
+/* in animations fill mode you can select forward
+ if you don't want it to  retain it's old properties 
+ or you can use backward if you want to retain it's old properties like it's starting background-color: 
+ like it's starting colour was aqua but the animation is starting after being red  */
+}
+@keyframes SATYAM_KA_ANIMATION {
+    from{
+        background-color: red;
+        color: yellow;
+        
+    }
+    to{ 
+        transform: translateX(50vw) translateY(40vh) scale(10); 
+        background-color:yellow;
+        color: darkblue;
+    }  
+}

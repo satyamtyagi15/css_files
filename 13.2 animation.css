@@ -1,0 +1,25 @@
+.container{
+    background-color: black;
+    width: 80vw;
+    height: 70vh;
+
+}
+.box{ background-color:aqua;
+    width: 8vw;
+    height: 7vh;
+    animation-name: SATYAM-KA-DUSRA-ANIMATION;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-delay: 3s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+animation-play-state: running;
+animation-fill-mode: forwards;
+}
+@keyframes SATYAM-KA-DUSRA-ANIMATION {
+    0%{transform: rotate(80deg);}
+    20%{transform: rotate(100deg);}
+    40%{transform: rotate(150deg);}
+    80%{transform: rotate(180deg);}
+    100%{transform: rotate(360deg);}
+}
