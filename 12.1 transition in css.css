@@ -1,0 +1,49 @@
+.parent{
+    color: aqua;
+    background-color: darkmagenta;
+    width: 50vw;
+    height: 40vh;
+}
+
+.child{
+    color: darkmagenta;
+    background-color: aqua;
+    width: 5vw;
+    height: 4vh;
+    /* we are using view  height and view width in place of px so that our boxes become visible */
+    /* if we look without applying any transition and inspecting our child by unticking and ticking 
+    the transform in inspect we can see very fast movement of the box rather than a slow and smooth 
+    transition */
+    /* so for the smooth transition we need to learn about it's transition properties first  */
+    transition-property:all;
+    /* In this transition-property you can either mention on which which properties you need the transition like if you
+    need the transition only on the transform property then mention only transform like transition-property: transform; 
+    but if i want the transition on more then 1 property i can mention it by seperating both the properties by comma like 
+    transition-property: transform, background-color; and at last if i want the transition on all the properties of this 
+    transform 
+    then you can use transition-property: all ; */
+    /* in this transition-property you need to mention on which property you want the transitions  */
+    transition-duration: 10s;
+    /* in this transition-duration  you need to mention the duration for which or for how much time you need to show the 
+    transition on your webpage  */
+    transition-timing-function:ease-in-out ;
+    /* in this transition-timing-function you need to mention which function 
+    you want to  add to your transition 
+    there are so many functiions but for now on we're going to study
+     these main functions - ease, ease-in,ease-out,ease-in-out. */
+     /* we're using ease-in-out function in this code */
+     /* you can see these function on the inspect section in transition-timing-function and can also make it according 
+     to yourself */
+    transition-delay: 1s ;
+    /* we use the transition-delay if we need to start our transition after how much time or delay so just like in these code 
+    we want to start our transition after 1s so for that we're mentioning our transition delay to be 1s */
+    /* now go to your webpage and untick the transform and see your transition yourself  */
+}
+.translate{
+    transform: translateX(10vw) translateY(20vh) scale(4);
+    /* by using translate class we are translating the the childs width
+     and height from the parent u can either use % or vw and vh to 
+     translate(move) the child from the parent  */
+     /* scale is used  to change it's size and how much large you want to make it   */
+     background-color: blanchedalmond;
+}

@@ -1,0 +1,18 @@
+.parent{
+    color: aqua;
+    background-color: darkmagenta;
+    width: 50vw;
+    height: 40vh;
+}
+
+.child{
+    color: darkmagenta;
+    background-color: aqua;
+    width: 5vw;
+    height: 4vh;
+    transition: all 3s ease-in-out 4s ;
+}
+.translate{
+    transform: translateX(10vw) translateY(20vh) scale(4);
+     background-color: blanchedalmond;
+}
